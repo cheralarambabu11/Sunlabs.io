@@ -1,198 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Sun Labs | Fruit & Vegetable Powder Supplier</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Sun Labs | Product Development & Technology Training</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f8f9fa;
-            color: #333;
-        }
-        header {
-            background: #2e7d32;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 30px;
-            max-width: 1100px;
-            margin: auto;
-        }
-        h2 {
-            color: #2e7d32;
-            margin-bottom: 10px;
-        }
-        .products {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            padding: 15px;
-            text-align: center;
-        }
-        .card img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-radius: 6px;
-        }
-        .card h3 {
-            margin-top: 10px;
-            color: #2e7d32;
-        }
-        .contact {
-            background: #e8f5e9;
-            border-radius: 8px;
-            padding: 25px;
-            text-align: center;
-        }
-        footer {
-            background: #1b5e20;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            margin-top: 40px;
-        }
-        a {
-            color: #2e7d32;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .info-section {
-    background: #f7f9fc;
-    padding: 25px;
-    border-radius: 10px;
-    font-family: Arial, sans-serif;
-  }
+<style>
 
-  .info-section p {
-    background: #ffffff;
-    border-left: 6px solid #2c7be5;
-    padding: 15px 18px;
-    margin-bottom: 15px;
-    border-radius: 6px;
-    line-height: 1.6;
-    color: #333333;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  }
+html{
+scroll-behavior:smooth;
+}
 
-  .info-section p strong {
-    color: #1f3c88;
-  }
-    </style>
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:#f8f9fa;
+color:#333;
+}
+
+header{
+background:#2e7d32;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#1b5e20;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:0 15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:30px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+color:#2e7d32;
+}
+
+.products{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+border-radius:8px;
+box-shadow:0 2px 6px rgba(0,0,0,0.1);
+padding:15px;
+text-align:center;
+}
+
+.card img{
+width:100%;
+height:180px;
+object-fit:cover;
+border-radius:6px;
+}
+
+.card h3{
+color:#2e7d32;
+}
+
+.contact{
+background:#e8f5e9;
+border-radius:8px;
+padding:25px;
+text-align:center;
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+.info-section{
+background:#f7f9fc;
+padding:25px;
+border-radius:10px;
+}
+
+.info-section p{
+background:white;
+border-left:6px solid #2c7be5;
+padding:15px;
+margin-bottom:15px;
+border-radius:6px;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
-    <h1>Sun Labs</h1>
-    <p>Supplier of Fruit & Vegetable Dry and Freeze-Dried Powders</p>
+<h1>Sun Labs</h1>
+<p>Product Development | SME Training | Career Guidance | HR Advisory | Technology Internships</p>
 </header>
 
-<section>
-    <h2>About Us</h2>
-    <p>
-        Sun Labs is a reliable supplier of high-quality <strong>fruit and vegetable dry powders 
-        and freeze-dried powders</strong> for food, ice-cream, nutraceutical, pharmaceutical, 
-        and wellness industries. We focus on purity, consistent quality, and hygienic processing.
-    </p>
+<nav>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#technologies">Technologies</a>
+<a href="#internships">Internships</a>
+<a href="#career">Career Programs</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section style="text-align:center;background:#e8f5e9;">
+<h2>Building Future Technology Professionals</h2>
+<p>
+Sun Labs helps individuals and organizations build technology capabilities through 
+product development, expert-led training, career mentorship, and internship opportunities.
+</p>
 </section>
 
-<section>
-    <h2>Our Products</h2>
-    <div class="products">
+<section id="about">
 
-        <div class="card">
-            <img src="Pic1.jpg" alt="Fruit Powder">
-            <h3>Fruit Powders</h3>
-            <p>Mango, Strawberry, Banana, Apple, Pomegranate, Citrus & more.</p>
-        </div>
+<h2>About Us</h2>
 
-        <div class="card">
-            <img src="Pic21.jpg" alt="Vegetable Powder">
-            <h3>Vegetable Powders</h3>
-            <p>Beetroot, Carrot, Spinach, Tomato, Moringa, Pumpkin etc.</p>
-        </div>
+<p>
+Sun Labs is a technology-focused product development and professional services company 
+supporting individuals, startups, and organizations in building modern technology capabilities.
+</p>
 
-        <div class="card">
-            <img src="Pic3.jpg" alt="Freeze Dried Powder">
-            <h3>Freeze-Dried Powders</h3>
-            <p>Premium quality powders with better color, aroma & nutrition.</p>
-        </div>
+<p>
+Our ecosystem combines product engineering expertise, industry mentoring, and career development 
+support to help learners and professionals gain practical knowledge of modern technologies.
+</p>
 
-        <div class="card">
-            <img src="Pic22.jpg" alt="Customized Powders">
-            <h3>Customized Supply</h3>
-            <p>Bulk & customized specifications as per industry requirement.</p>
-        </div>
+<p>
+We collaborate with industry professionals and subject matter experts to deliver training programs, 
+career coaching, and internship opportunities aligned with real industry practices.
+</p>
 
-    </div>
 </section>
 
-<section>
-    <h2>Industries We Serve</h2>
-    <ul>
-        <li>Ice Cream & Frozen Desserts</li>
-        <li>Food & Beverage Manufacturers</li>
-        <li>Nutraceutical & Health Supplements</li>
-        <li>Pharmaceutical & Ayurvedic Companies</li>
-        <li>Export & Bulk Ingredient Buyers</li>
-    </ul>
+<section id="services">
+
+<h2>Our Services</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="product-development.jpg">
+<h3>Product Development</h3>
+<p>Designing and building modern software platforms, enterprise tools, and scalable applications.</p>
+</div>
+
+<div class="card">
+<img src="sme-training.jpg">
+<h3>SME Training</h3>
+<p>Technology training programs delivered by industry subject matter experts.</p>
+</div>
+
+<div class="card">
+<img src="career-guidance.jpg">
+<h3>Career Guidance</h3>
+<p>Mentoring programs for students and professionals entering technology careers.</p>
+</div>
+
+<div class="card">
+<img src="internship-program.jpg">
+<h3>Technology Internships</h3>
+<p>Real project-based internships that provide practical industry exposure.</p>
+</div>
+
+</div>
+
 </section>
 
-<section>
-    <h2>Why Choose Us</h2>
-    <ul>
-        <p><strong>High-Quality Raw Materials:</strong> We source raw materials from reliable and verified suppliers to ensure freshness, purity, and consistency. Strict quality checks are performed on parameters such as appearance, moisture, and compliance with applicable food and safety standards. This ensures superior end-product quality and minimal rejections.</p>
-        <p><strong>Hygienic Processing:</strong> All processing activities are carried out in clean and controlled environments using food-grade equipment. Standard hygiene practices, sanitation procedures, and regular inspections are followed to prevent contamination and maintain safety throughout the processing cycle.</p>
-        <p><strong>Consistent Supply:</strong> We maintain well-planned production schedules, adequate inventory, and dependable logistics to ensure uninterrupted supply. Our operational planning enables us to meet regular demand as well as scale volumes during peak requirements.</p>
-        <p><strong>Competitive Pricing:</strong> By optimizing sourcing, processing efficiency, and operational costs, we offer competitive pricing without compromising on quality. Transparent pricing structures and volume-based flexibility help buyers achieve better cost efficiency.</p>
-        <p><strong>Vendor-Friendly Approach:</strong> We believe in building long-term partnerships through clear communication, flexibility in order quantities, customization support, and fair commercial terms. Our approach focuses on collaboration, reliability, and mutual business growth.</p>
+<section id="technologies">
 
-    </ul>
+<h2>Technologies We Work With</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="web-technologies.jpg">
+<h3>Web Development</h3>
+<p>Modern frontend and backend web development technologies.</p>
+</div>
+
+<div class="card">
+<img src="cloud-technologies.jpg">
+<h3>Cloud Platforms</h3>
+<p>Cloud infrastructure and scalable systems using modern platforms.</p>
+</div>
+
+<div class="card">
+<img src="data-technologies.jpg">
+<h3>Data & Analytics</h3>
+<p>Data analysis and business intelligence tools.</p>
+</div>
+
+<div class="card">
+<img src="automation-tools.jpg">
+<h3>DevOps & Automation</h3>
+<p>Deployment pipelines, automation frameworks, and engineering practices.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="internships">
+
+<h2>Internship Domains</h2>
+
 <ul>
+
+<li>Full Stack Development</li>
+<li>Frontend Engineering</li>
+<li>Backend API Development</li>
+<li>Cloud & DevOps</li>
+<li>Data Analytics</li>
+<li>Enterprise Tools</li>
+
+</ul>
+
+</section>
+
+<section id="career">
+
+<h2>Career Development Programs</h2>
+
+<div class="products">
+
+<div class="card">
+<img src="career-mentorship.jpg">
+<h3>Career Mentorship</h3>
+<p>Guidance from experienced professionals to build strong technology careers.</p>
+</div>
+
+<div class="card">
+<img src="resume-building.jpg">
+<h3>Resume Building</h3>
+<p>Professional resume and portfolio development support.</p>
+</div>
+
+<div class="card">
+<img src="interview-preparation.jpg">
+<h3>Interview Preparation</h3>
+<p>Technical interview preparation and mock interview sessions.</p>
+</div>
+
+<div class="card">
+<img src="skill-gap-analysis.jpg">
+<h3>Skill Gap Analysis</h3>
+<p>Assessment of skills and roadmap planning for career growth.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>HR Advisory & Employment Guidance</h2>
+
 <div class="info-section">
 
-<p><strong>Food & Beverage Industry Uses:</strong> Fruit and vegetable powders are widely used as flavoring agents in snacks, soups, sauces, noodles, and ready-to-eat foods. They are also used in bakery products such as bread, cakes, cookies, and energy bars. These powders act as natural color and taste enhancers in beverages, smoothies, dairy products, baby foods, and instant food mixes due to their long shelf life and consistency.</p>
+<p><strong>BGV Clarifications:</strong> Understanding employment background verification processes.</p>
 
-<p><strong>Health & Nutritional Benefits:</strong> High-quality powders retain essential nutrients such as vitamins, minerals, antioxidants, and dietary fiber, especially when freeze-dried. They support immunity, digestion, and overall wellness. These powders are naturally low in fat, free from cholesterol, and suitable for health-conscious consumers, including those following calorie-controlled or diabetic-friendly diets.</p>
+<p><strong>Payroll Understanding:</strong> Salary structure, tax deductions, and employment benefits.</p>
 
-<p><strong>Pharmaceutical & Nutraceutical Applications:</strong> Natural powders are extensively used in pharmaceutical and nutraceutical industries as base materials for capsules, tablets, sachets, and supplements. They serve as carriers for herbal and plant-based medicines and allow accurate dosing and blending in protein, vitamin, and mineral formulations.</p>
+<p><strong>Employment Documentation:</strong> Offer letters, relieving letters, and experience documentation.</p>
 
-<p><strong>Cosmetics & Personal Care Uses:</strong> Fruit and vegetable powders are used in cosmetic and personal care products such as face packs, masks, scrubs, soaps, and hair care formulations. Their antioxidant and nourishing properties support skin health, scalp care, and anti-aging solutions.</p>
+<p><strong>Career Transition Support:</strong> Guidance for professionals changing roles or organizations.</p>
 
-<p><strong>Animal Feed & Pet Nutrition:</strong> These powders are incorporated into animal feed and pet food to enhance nutritional value, improve digestion, boost immunity, and support overall health. They are increasingly preferred as natural alternatives to synthetic additives.</p>
-
-<p><strong>Food Security & Sustainability:</strong> Powdered products play a vital role in reducing food waste by converting surplus produce into long-lasting ingredients. They help minimize post-harvest losses, reduce storage costs, and support food security and sustainability initiatives worldwide.</p>
-
-<p><strong>Export & Global Trade Advantages:</strong> Fruit and vegetable powders are ideal for international trade due to their lightweight nature, long shelf life, and ease of bulk or retail packaging. They are widely supplied to global markets including the USA, Europe, the Middle East, and Asia.</p>
-
-<p><strong>Modern Lifestyle & Convenience:</strong> Powders offer quick preparation, easy consumption, and consistent nutrition without cooking. They are ideal for travel, sports nutrition, and busy lifestyles.</p>
-
-<p><strong>Global Perspective:</strong> Natural fruit and vegetable </p>
-    </ul>
+</div>
 
 </section>
 
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p><strong>Phone:</strong> <a href="tel:7780725981">7780725981</a></p>
-    <p><strong>Email:</strong> <a href="mailto:rambabu.cherala@sunlabs.in">
-        rambabu.cherala@sunlabs.in</a></p>
-    <p>We welcome inquiries from food, pharma, nutraceutical, and export buyers.</p>
+<section>
+
+<h2>Our Mission</h2>
+
+<p>
+To bridge the gap between academic learning and industry requirements by providing practical 
+technology training, mentorship, and real-world exposure.
+</p>
+
+<h2>Our Vision</h2>
+
+<p>
+To build a strong ecosystem that connects learners, professionals, and industry experts 
+to create future-ready technology talent.
+</p>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<p><strong>Phone:</strong> <a href="tel:7780725981">7780725981</a></p>
+
+<p><strong>Email:</strong> 
+<a href="mailto:rambabu.cherala@sunlabs.in">rambabu.cherala@sunlabs.in</a>
+</p>
+
+<p>
+For product development inquiries, training programs, career mentoring, and internship opportunities.
+</p>
+
 </section>
 
 <footer>
-    <p>© 2025 Sun Labs | Fruit & Vegetable Powder Supplier</p>
+<p>© 2025 Sun Labs | Product Development | SME Training | Career Guidance</p>
 </footer>
 
 </body>
